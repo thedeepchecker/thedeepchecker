@@ -16,7 +16,7 @@ pip install ./thedeepchecker
 
 ## Usage
 
-You can find a lot of examples on the different folders: *clean_base_programs*, *buggy_synthetic_programs*, *SO_buggy_examples*, GH_buggy_examples*.
+You can find a lot of examples on the different folders: *clean_base_programs*, *buggy_synthetic_programs*, *SO_buggy_examples*, *GH_buggy_examples*.
 As an example, I will comment out, in the following, the snippets of code added to run TheDeepChecker taking from *clean_base_programs/baseCNN.py*
 
 ```python
