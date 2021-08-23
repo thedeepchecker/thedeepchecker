@@ -1,0 +1,2 @@
+2021-08-23 10:04:10,760 - DNNchecker: regrNN Logs - WARNING - You must set PYTHONHASHSEED=0 when running the python script If you wanna get reproducible results.
+2021-08-23 10:04:17,003 - DNNchecker: regrNN Logs - WARNING - Gradient w.r.t weight of FC layer denseNN/dense_1/kernel:0 are vanishing with reaching abs mean of 0.0 < 1e-06

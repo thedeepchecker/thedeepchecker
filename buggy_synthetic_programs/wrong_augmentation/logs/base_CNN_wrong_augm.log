@@ -1,0 +1,39 @@
+2021-08-23 10:17:39,758 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - You must set PYTHONHASHSEED=0 when running the python script If you wanna get reproducible results.
+2021-08-23 10:17:41,373 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - Features seem to be unnormalized
+2021-08-23 10:17:41,826 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - It is recommended to choose He initialization for weight lenet/conv2d/kernel:0 with RELU: error of 0.14961921870708467
+2021-08-23 10:17:41,827 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - It is recommended to choose He initialization for weight lenet/conv2d_1/kernel:0 with RELU: error of 0.010738223557827095
+2021-08-23 10:17:58,841 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - Conv. layer activation lenet/conv2d/Relu are considered unstable with std of 0.06573706879791161 far from [0.5, 2.0]
+2021-08-23 10:17:59,098 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - Conv. layer activation lenet/conv2d_1/Relu are considered unstable with std of 0.04560942146483383 far from [0.5, 2.0]
+2021-08-23 10:17:59,111 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - FC layer activation lenet/dense/Relu are considered unstable with std of 0.05052895148232911 far from [0.5, 2.0]
+2021-08-23 10:18:00,713 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - Conv. layer activation lenet/conv2d/Relu are considered unstable with std of 0.0798046315243981 far from [0.5, 2.0]
+2021-08-23 10:18:00,985 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - Conv. layer activation lenet/conv2d_1/Relu are considered unstable with std of 0.058904718047468774 far from [0.5, 2.0]
+2021-08-23 10:18:00,998 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - FC layer activation lenet/dense/Relu are considered unstable with std of 0.06379086786907669 far from [0.5, 2.0]
+2021-08-23 10:18:02,576 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - Conv. layer activation lenet/conv2d/Relu are considered unstable with std of 0.10712316955256768 far from [0.5, 2.0]
+2021-08-23 10:18:02,858 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - Conv. layer activation lenet/conv2d_1/Relu are considered unstable with std of 0.0868278618143305 far from [0.5, 2.0]
+2021-08-23 10:18:02,873 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - FC layer activation lenet/dense/Relu are considered unstable with std of 0.09159614990774828 far from [0.5, 2.0]
+2021-08-23 10:18:04,453 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - Conv. layer activation lenet/conv2d/Relu are considered unstable with std of 0.14591520647163111 far from [0.5, 2.0]
+2021-08-23 10:18:04,727 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - Conv. layer activation lenet/conv2d_1/Relu are considered unstable with std of 0.13093706884369088 far from [0.5, 2.0]
+2021-08-23 10:18:04,742 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - FC layer activation lenet/dense/Relu are considered unstable with std of 0.1375211371005451 far from [0.5, 2.0]
+2021-08-23 10:18:06,320 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - Conv. layer activation lenet/conv2d/Relu are considered unstable with std of 0.1545275650797368 far from [0.5, 2.0]
+2021-08-23 10:18:06,579 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - Conv. layer activation lenet/conv2d_1/Relu are considered unstable with std of 0.1326243686871919 far from [0.5, 2.0]
+2021-08-23 10:18:06,593 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - FC layer activation lenet/dense/Relu are considered unstable with std of 0.1466251699815717 far from [0.5, 2.0]
+2021-08-23 10:18:06,618 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - The loss seems to lack representativeness: the correlation magnitude between loss and performance measures equals to 0.319 < 0.5
+2021-08-23 10:18:08,199 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - Conv. layer activation lenet/conv2d/Relu are considered unstable with std of 0.15865944388038183 far from [0.5, 2.0]
+2021-08-23 10:18:08,457 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - Conv. layer activation lenet/conv2d_1/Relu are considered unstable with std of 0.13183796181442178 far from [0.5, 2.0]
+2021-08-23 10:18:08,470 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - FC layer activation lenet/dense/Relu are considered unstable with std of 0.16834558557711973 far from [0.5, 2.0]
+2021-08-23 10:18:08,497 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - The loss seems to lack representativeness: the correlation magnitude between loss and performance measures equals to 0.259 < 0.5
+2021-08-23 10:18:10,063 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - Conv. layer activation lenet/conv2d/Relu are considered unstable with std of 0.16969477348901585 far from [0.5, 2.0]
+2021-08-23 10:18:10,319 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - Conv. layer activation lenet/conv2d_1/Relu are considered unstable with std of 0.1426127167327355 far from [0.5, 2.0]
+2021-08-23 10:18:10,332 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - FC layer activation lenet/dense/Relu are considered unstable with std of 0.19850524772997127 far from [0.5, 2.0]
+2021-08-23 10:18:10,359 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - The loss seems to lack representativeness: the correlation magnitude between loss and performance measures equals to 0.345 < 0.5
+2021-08-23 10:18:11,932 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - Conv. layer activation lenet/conv2d/Relu are considered unstable with std of 0.17845222739585997 far from [0.5, 2.0]
+2021-08-23 10:18:12,191 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - Conv. layer activation lenet/conv2d_1/Relu are considered unstable with std of 0.1486414819150609 far from [0.5, 2.0]
+2021-08-23 10:18:12,205 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - FC layer activation lenet/dense/Relu are considered unstable with std of 0.2209776944328063 far from [0.5, 2.0]
+2021-08-23 10:18:12,231 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - The loss seems to lack representativeness: the correlation magnitude between loss and performance measures equals to 0.406 < 0.5
+2021-08-23 10:18:13,802 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - Conv. layer activation lenet/conv2d/Relu are considered unstable with std of 0.19080063021957552 far from [0.5, 2.0]
+2021-08-23 10:18:14,062 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - Conv. layer activation lenet/conv2d_1/Relu are considered unstable with std of 0.1411068958470635 far from [0.5, 2.0]
+2021-08-23 10:18:14,076 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - FC layer activation lenet/dense/Relu are considered unstable with std of 0.22801029927831534 far from [0.5, 2.0]
+2021-08-23 10:18:14,103 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - The loss seems to lack representativeness: the correlation magnitude between loss and performance measures equals to 0.461 < 0.5
+2021-08-23 10:18:15,649 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - Conv. layer activation lenet/conv2d/Relu are considered unstable with std of 0.20083679195876938 far from [0.5, 2.0]
+2021-08-23 10:18:15,928 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - Conv. layer activation lenet/conv2d_1/Relu are considered unstable with std of 0.15480367371544448 far from [0.5, 2.0]
+2021-08-23 10:18:15,942 - DNNchecker: base_CNN_wrong_augm Logs - WARNING - FC layer activation lenet/dense/Relu are considered unstable with std of 0.24952568421887086 far from [0.5, 2.0]

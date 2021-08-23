@@ -1,0 +1,156 @@
+#id,DL_Component,link,comments
+56541683,Parameters,https://stackoverflow.com/questions/56541683/output-of-a-cnn-doesnt-change-much-with-the-input,bad weight initialization
+19328728,InputData,https://stackoverflow.com/questions/19328728/rescaling-input-features-for-neural-networks-regression,benefit of re-scaling features
+59129802,Activation,https://stackoverflow.com/questions/59129802/loss-not-changeing-in-very-simple-keras-binary-classifier,softmax with single dim
+38399609,Optimization,https://stackoverflow.com/questions/38399609/tensorflow-deep-neural-network-for-regression-always-predict-same-results-in-one,incorrect loss function
+57200621,Activation,https://stackoverflow.com/questions/57200621/model-not-training-and-negative-loss-when-whitening-input-data,wrong output activation scale
+58525908,InputData,https://stackoverflow.com/questions/58525908/how-to-train-features-in-different-scales-in-deep-learning-model,unscaled data
+53848232,Optimization,https://stackoverflow.com/questions/53848232/tensorflow-exploding-gradient,exploding gradient
+55718408,Optimization,https://stackoverflow.com/questions/55718408/neural-network-returning-the-same-output-despite-input-change,high learning rate
+53640858,InputData,https://stackoverflow.com/questions/53640858/loss-nan-in-keras-while-performing-regression,NaN values in data
+63003693,InputData,https://stackoverflow.com/questions/63003693/underfitting-because-of-image-augmentation-or-noise,augmented noise is heavy
+41174546,InputData,https://stackoverflow.com/questions/41174546/keras-data-augmentation-parameters,overwhelming data with augmentation
+55786384,InputData,https://stackoverflow.com/questions/55786384/tensorflow-2-0-cnn-training-image-augmentation-function-shifts-pixel-values-out,augmented data are out of distribution (unmatched scaling)
+48845354,InputData,https://stackoverflow.com/questions/48845354/why-is-validation-accuracy-higher-than-training-accuracy-when-applying-data-augm,issue with data augmentation
+49070464,InputData,https://stackoverflow.com/questions/49070464/convolutional-neural-networks-reasons-for-changing-image-data-range,necessity of normalization
+4674623,InputData,https://stackoverflow.com/questions/4674623/why-do-we-have-to-normalize-the-input-for-an-artificial-neural-network,benefits of scaling
+59007484,InputData,https://stackoverflow.com/questions/59007484/is-this-a-case-of-overfitting-cnn-image-classifier,Augmenting the validation too
+57275278,InputData,https://stackoverflow.com/questions/57275278/extreme-overfitting-cnn-for-mnist,90 degrees are too much for rotation augm
+46239839,InputData,https://stackoverflow.com/questions/46239839/randomly-augmenting-images-using-keras,Augmenting the validation too
+60360057,InputData,https://stackoverflow.com/questions/60360057/keras-should-i-normalize-my-inputs-even-if-im-using-imagegenerator,risk of unscaling data augmentation
+53654594,InputData,https://stackoverflow.com/questions/53654594/fit-generator-trains-with-0-accuracy,forget to scale the augmented data
+44832497,Regularization,https://stackoverflow.com/questions/44832497/after-adding-dropout-my-neural-network-is-overfitting-even-more-than-before-wh,redundant dropout
+62354952,Connectivity&Custom Operation,https://stackoverflow.com/questions/62354952/why-does-my-neural-network-make-such-inaccurate-predictions-after-training,wrong accuracy (argmax for binary classification)
+61498304,Parameters,https://stackoverflow.com/questions/61498304/model-accuracy-and-loss-not-improving-in-cnn,inappropriate initialization
+52575271,Activation,https://stackoverflow.com/questions/52575271/keras-vgg16-same-model-different-approach-gave-different-result,softmax as intermediary activation
+63497958,Optimization,https://stackoverflow.com/questions/63497958/extremely-high-loss-with-consistent-validation-accuracy,learning rate and optimizer issue
+49931055,Activation,https://stackoverflow.com/questions/49931055/tensorflow-model-gets-zero-loss,softmax loss with 1-dim output
+63372983,Optimization,https://stackoverflow.com/questions/63372983/validation-accuracy-stuck-accuracy-low,inadequate optimizer
+50485506,InputData/Activation,https://stackoverflow.com/questions/50485506/basic-tensorflow-classification-example,unnormalized data;redundant softmax
+46202839,Connectivity&Custom Operation,https://stackoverflow.com/questions/46202839/weight-different-misclassifications-differently-keras,wrong weighted loss impl
+44454158,Connectivity&Custom Operation,https://stackoverflow.com/questions/44454158/tensorflow-implementing-a-class-wise-weighted-cross-entropy-loss,new weighted loss impl
+48027263,Parameters,https://stackoverflow.com/questions/48027263/why-does-this-neural-network-learn-nothing,unbreaking symmetry
+40467990,InputData,https://stackoverflow.com/questions/40467990/tensorflow-synchronize-readings-from-tfrecord,unaligned labels and features
+47866803,InputData,https://stackoverflow.com/questions/47866803/the-order-of-labels-are-wrong-after-batching-when-importing-data-from-tfrecords,unaligned labels and features
+46136553,InputData,https://stackoverflow.com/questions/46136553/why-are-my-examples-and-labels-in-the-wrong-order,unaligned labels and features
+41864333,InputData,https://stackoverflow.com/questions/41864333/tensorflow-mixes-up-images-and-labels-when-making-batch,unaligned labels and features
+47034888,Optimization,https://stackoverflow.com/questions/47034888/how-to-choose-cross-entropy-loss-in-tensorflow,potential bad loss
+46181692,Activation,https://stackoverflow.com/questions/46181692/why-arent-my-weights-being-updated,no activation; low width size
+38321024,Parameters,https://stackoverflow.com/questions/38321024/why-this-simple-tensorflow-code-is-not-successful-convnetjs-using-tensorflow,inadequate initialization
+53138899,Parameters/Activation,https://stackoverflow.com/questions/53138899/tensorflow-returns-same-weights-in-hidden-layer,bad initialization; no activation
+51993989,Activation,https://stackoverflow.com/questions/51993989/trouble-training-a-tensorflow-mlp-to-classify-inputs-1-0-or-1,softmax is not adequate
+43611745,Optimization,https://stackoverflow.com/questions/43611745/poor-accuracy-at-mnist-csv-data-in-tensorflow,sum reduction loss
+62566558,Optimization,https://stackoverflow.com/questions/62566558/validation-accuracy-stuck-at-5073,accuracy is not aligned with regression problem
+57326611,Activation,https://stackoverflow.com/questions/57326611/tensorflow-accuracy-is-0-5,softmax and binary CE are not aligned
+55533413,Optimization/Regularization,https://stackoverflow.com/questions/55533413/how-to-select-strategy-to-reduce-overfitting,mix of issues (among them: inappropriate learning rate and dropout rate)
+53471761,InputData,https://stackoverflow.com/questions/53471761/training-a-model-with-tensorflow-but-loss-just-wont-go-down,missing normalization
+38798657,InputData,https://stackoverflow.com/questions/38798657/tensorflow-no-change-in-parameter-value-for-a-simple-softmax-model,missing normalization
+36127436,Parameters/Optimization,https://stackoverflow.com/questions/36127436/tensorflow-predicts-always-the-same-result?noredirect=1&lq=1,unbreaking symmetry; no loss reduction
+55006469,Parameters,https://stackoverflow.com/questions/55006469/tensorflow-gradientdescentoptimizer-not-updating-variables,unbreaking symmetry
+35961434,Parameters,https://stackoverflow.com/questions/35961434/tensorflow-parameters-do-not-update-when-training,unbreaking symmetry
+40192728,Connectivity&Custom Operation,https://stackoverflow.com/questions/40192728/cross-entropy-is-nan,unstable cross entropy
+44856988,InputData,https://stackoverflow.com/questions/44856988/fully-convolutional-network-training-error,missing normalization
+34886605,Activation,https://stackoverflow.com/questions/34886605/tensorflow-network-not-training,wrong last softmax with one unit
+59106542,Optimization,https://stackoverflow.com/questions/59106542/is-there-a-way-to-improve-val-acc,low lr
+structured_data,InputData,https://www.tensorflow.org/tutorials/structured_data/imbalanced_data,unbalanced data
+56841451,Connectivity&Custom Operation,https://stackoverflow.com/questions/56841451/why-is-my-neural-net-only-predicting-one-class-binary-classification,wrong accuracy function
+59196793,InputData,https://stackoverflow.com/questions/59196793/why-are-my-metrics-of-my-cnn-not-changing-with-each-epoch,unbalanced dataset
+53358838,InputData,https://stackoverflow.com/questions/53358838/predicting-all-zeros,predicting all zeros for unbalanced
+44285537,InputData,https://stackoverflow.com/questions/44285537/imbalanced-dataset-for-multi-label-classification,stratified sampling for overfitting
+62007061,InputData,https://stackoverflow.com/questions/62007061/advice-for-my-plan-large-dataset-of-students-and-grades-looking-to-classify-b,tackling unbalanced datasets
+53283056,Connectivity&Custom Operation,https://stackoverflow.com/questions/53283056/how-do-the-loss-weights-work-in-tensorflow,weighting loss
+45461553,Optimization,https://stackoverflow.com/questions/45461553/unbalanced-binary-classification-in-tensorflow,wong loss selection
+42821125,Connectivity&Custom Operation,https://stackoverflow.com/questions/42821125/tensorflow-converge-to-mean,wrong accuracy function
+38319898,InputData/Optimization,https://stackoverflow.com/questions/38319898/tensorflow-neural-net-with-continuous-floating-point-output,missing output normalization;wrong loss selection
+45652597,Optimization,https://stackoverflow.com/questions/45652597/cost-function-always-returning-zero-for-a-binary-classification-in-tensorflow,invalid loss
+45997645,Parameters,https://stackoverflow.com/questions/45997645/zero-gradients-for-repetitve-convolutions-tensorflow,unbreaking symmetry
+62313327,InputData/Activation,https://stackoverflow.com/questions/62313327/network-loss-stalls-where-it-should-fall-to-zero-quickly,unmatched distribution of model's output and traget
+37898795,InputData/Activation,https://stackoverflow.com/questions/37898795/tensorflow-accuracy-at-99-but-predictions-awful,unmatched distribution of  model's output and target
+40929658,Regularization,https://stackoverflow.com/questions/40929658/how-to-interpret-loss-values-of-fully-connected-model-with-large-input-images,zero loss
+42516484,Parameters,https://stackoverflow.com/questions/42516484/why-does-my-tensorflow-neural-network-for-xor-only-have-an-accuracy-of-around-0,unbreaking symmetry
+38447935,Connectivity&Custom Operation,https://stackoverflow.com/questions/38447935/tensorflow-model-always-produces-mean,incorrect shaping given bad tensor
+39714374,InputData,https://stackoverflow.com/questions/39714374/nan-results-in-tensorflow-neural-network,missing normalization
+43564627,Parameters,https://stackoverflow.com/questions/43564627/predictions-in-tensorflow-with-a-1-hiddden-layer-neural-network-does-not-change,bad initialization
+51835124,InputData,https://stackoverflow.com/questions/51835124/neural-network-producing-nan-after-first-train,corrupted data with NAs
+50641866,Optimization,https://stackoverflow.com/questions/50641866/binary-classifier-always-returns-0-5,MSE for classification
+43561420,Optimization,https://stackoverflow.com/questions/43561420/simple-tensorflow-multilayer-neural-network-not-learning,inappropriate optimizer & bad loss reduction
+53971451,Activation,https://stackoverflow.com/questions/53971451/untrained-binary-classification-keras-model-gives-output-of-1-on-all,softmax with 1-dim out
+64998875,Activation,https://stackoverflow.com/questions/64998875/transfer-learning-model-is-giving-unchanged-loss-results-is-it-not-training,inappropriate last activation
+48138483,Regularization,https://stackoverflow.com/questions/48138483/random-results-from-pre-trained-inceptionv3-cnn,dropout always active (train & inference times)
+57346868,Connectivity&Custom Operation,https://stackoverflow.com/questions/57346868/why-prediction-on-activation-values-softmax-gives-incorrect-results,bad softmax
+39817949,Activation,https://stackoverflow.com/questions/39817949/setting-up-a-mlp-for-binary-classification-with-tensorflow,saturated sigmoid
+53254870,Activation,https://stackoverflow.com/questions/53254870/how-to-use-a-different-cnn-without-losing-accuracy,missing softmax
+53749895,Activation,https://stackoverflow.com/questions/53749895/building-a-model-on-keras-correctly,dead relu
+41780344,Connectivity&Custom Operation,https://stackoverflow.com/questions/41780344/gradient-of-tf-floor-is-none,incorrect derived gradients
+59656219,Connectivity&Custom Operation,https://stackoverflow.com/questions/59656219/override-tf-floor-gradient,incorrect derived gradients
+52142287,Connectivity&Custom Operation,https://stackoverflow.com/questions/52142287/gradient-erroneously-returns-none,incorrect loss function/derived gradients
+54346263,Connectivity&Custom Operation,https://stackoverflow.com/questions/54346263/tensorflow-gradient-getting-all-nan-values,incorrect derived gradients
+63624526,Connectivity&Custom Operation,https://stackoverflow.com/questions/63624526/tensorflow-gradient-returns-nan-or-inf,incorrect derived gradients
+42264716,Optimization,https://stackoverflow.com/questions/42264716/my-tensorflow-gradient-descent-diverges,high learning rate
+43027109,Optimization,https://stackoverflow.com/questions/43027109/tensorflow-weights-increasing-when-using-the-full-dataset-for-the-gradient-desce,bad loss reduction
+49705590,Parameters,https://stackoverflow.com/questions/49705590/loss-decreases-but-weights-dont-appear-to-change-during-tensorflow-gradient-des,unbreaking symmetry
+45154470,InputData,https://stackoverflow.com/questions/45154470/tensorflow-step-size-incredibly-small-to-prevent-errors,unscaled targets
+60291619,Optimization,https://stackoverflow.com/questions/60291619/how-to-detect-vanishing-and-exploding-gradients-with-tensorboard,unstable gradients
+49891163,Activation,https://stackoverflow.com/questions/49891163/weights-of-my-tensorflow-fcn-all-drop-to-0,dead relu
+44856988,InputData/Activation,http://stackoverflow.com/questions/44856988/fully-convolutional-network-training-error,missing normalization and dead relu
+52024026,Optimization,https://stackoverflow.com/questions/52024026/exploding-gradient-on-fully-connected-layer,exploding gradients
+43489697,Parameters,https://stackoverflow.com/questions/43489697/tensorflow-weight-initialization,weight initialization
+60801900,Activation,https://stackoverflow.com/questions/60801900/model-predicts-negative-values-as-zeros,useless RELU at the last layer
+52048171,Connectivity&Custom Operation,https://stackoverflow.com/questions/52048171/kerass-binary-crossentropy-loss-function-range,range of CE
+46825257,InputData/Regularization,https://stackoverflow.com/questions/46825257/low-training-accuracy-of-a-neural-network-with-adult-income-dataset,mix of issues (including missing normalization&regularization)
+62381380,Optimization,https://stackoverflow.com/questions/62381380/deep-learning-when-learning-rate-is-too-high,high learning rate
+42867180,Optimization,https://stackoverflow.com/questions/42867180/how-can-i-set-the-first-layer-to-have-a-learning-rate-of-0-00001-and-the-last-la,unstable learning of layers
+36666331,Optimization,https://stackoverflow.com/questions/36666331/learning-rate-larger-than-0-001-results-in-error,diverging loss
+47714193,Optimization,https://stackoverflow.com/questions/47714193/larger-learning-rate-determines-large-weights,high learning rate
+61293041,InputData,https://stackoverflow.com/questions/61293041/link-between-range-of-input-values-and-loss-convergence,missing normalization
+40147568,Parameters,https://stackoverflow.com/questions/40147568/tensorflow-error-rate-doesnt-improve-even-with-more-iterations-or-changing-lea,bad initialization of weights (too large)
+61142081,InputData,https://stackoverflow.com/questions/61142081/loss-increasing-for-model-only-for-bigger-data,missing normalization
+46639430,Activation,https://stackoverflow.com/questions/46639430/keras-mnist-gradient-descent-stuck-learning-very-slowly,dead relu
+41550966,InputData/Regularization,https://stackoverflow.com/questions/41550966/why-deep-nn-cant-approximate-simple-lnx-function,low scaling inputs&missing dropout
+44450841,Activation,https://stackoverflow.com/questions/44450841/the-cnn-model-does-not-learn-when-adding-one-two-more-convolutional-layers,useless RELU
+50975389,Optimization,https://stackoverflow.com/questions/50975389/nan-with-softmax-cross-entropy-in-simple-model-with-dummy-inputs,bad  epsilon ADAM
+42327543,Optimization,https://stackoverflow.com/questions/42327543/adam-optimizer-goes-haywire-after-200k-batches-training-loss-grows,bad epsilon ADAM
+51028324,Regularization,https://stackoverflow.com/questions/51028324/tensorflow-loss-not-converge,high regularization
+52783615,Activation,https://stackoverflow.com/questions/52783615/tensorflow-image-classifier-accuracy-fails-to-change,dead relu
+41054149,Optimization,https://stackoverflow.com/questions/41054149/2-layer-nn-weights-not-updating,high learning rate
+40156629,Optimization,https://stackoverflow.com/questions/40156629/oscillating-accuracy-of-cnn-training-with-tensor-flow-for-mnist-handwritten-digi,issue with high lr
+51344264,Optimization,https://stackoverflow.com/questions/51344264/why-my-loss-function-oscilates-only-in-the-middle,high fluctuating loss
+56764934,Regularization,https://stackoverflow.com/questions/56764934/resnet-training-l2-loss-decreases-while-cross-entropy-stays-around-0-69,unnecessary high capacity of the model
+50209981,Optimization,https://stackoverflow.com/questions/50209981/neural-network-is-not-being-trained-cross-entropy-stays-about-the-same,vanishing grad
+43072924,InputData,https://stackoverflow.com/questions/43072924/inconsistency-for-decreasing-loss,mising normalization
+62944015,Activation,https://stackoverflow.com/questions/62944015/tensorflow-keras-model-output-is-constant,bad choice of activation
+50032197,Activation,https://stackoverflow.com/questions/50032197/tensorflow-gradients-are-0-weights-are-not-updating,redundant softmax
+52282108,Regularization,https://stackoverflow.com/questions/52282108/keras-accuracy-drops-while-finetuning-inception,issue with batchnorm
+47976845,Activation,https://stackoverflow.com/questions/47976845/tensorflow-loss-is-already-low,bad choice of activation
+50085955,Activation,https://stackoverflow.com/questions/50085955/relu-function-return-0-and-big-numbers,unstable/dead relu
+57605741,Activation,https://stackoverflow.com/questions/57605741/convolutional-net-model-not-working-on-very-simple-data,redundant softmax
+48431507,Optimization,https://stackoverflow.com/questions/48431507/tensorflow-approximating-a-function,inappropriate loss
+54688502,Activation,https://stackoverflow.com/questions/54688502/neural-network-does-not-learn-loss-stays-the-same,dead relu
+43436966,Regularization,https://stackoverflow.com/questions/43436966/gradient-exploding-when-using-rmsprop,missing batchnorm
+64745590,InputData,https://stackoverflow.com/questions/64745590/gradient-exploding-using-cifar-10-dataset-from-the-official-website,missing normalization
+41354177,Optimization,https://stackoverflow.com/questions/41354177/why-does-simple-gradient-descent-diverge,gradient divergence
+36565430,Optimization,https://stackoverflow.com/questions/36565430/adding-multiple-layers-to-tensorflow-causes-loss-function-to-become-nan,unstable gradient
+47245866,Optimization,https://stackoverflow.com/questions/47245866/tensorflow-loss-increases-to-nan,high learning rate strategy
+51122380,Regularization,https://stackoverflow.com/questions/51122380/neural-network-immediately-overfitting,no regularization/strong overfitting tendency
+39052558,Regularization,https://stackoverflow.com/questions/39052558/regularized-cost-function-with-very-large-%ce%bb,high lambda for norm penalty
+39691902,Regularization,https://stackoverflow.com/questions/39691902/ordering-of-batch-normalization-and-dropout,disharmony between batchnorm and dropout
+60591577,Regularization,https://stackoverflow.com/questions/60591577/will-dropout-layer-enhance-accuracy,dropout perform worser
+44695141,Regularization,https://stackoverflow.com/questions/44695141/convolutional-neural-network-dropout-kills-performance,risk of inappropriate dropout
+64289118,Regularization,https://stackoverflow.com/questions/64289118/what-happens-if-my-dropout-is-too-high-what-dropout-to-use-on-my-2048-neuron-de,risk of inappropriate dropout
+46515248,Regularization,https://stackoverflow.com/questions/46515248/intuition-behind-stacking-multiple-conv2d-layers-before-dropout-in-cnn,risk of inappropriate dropout
+47822099,Optimization,https://stackoverflow.com/questions/47822099/cnn-loss-stuck-at-2-302-ln10,non-decreasing loss
+48320854,Optimization,https://stackoverflow.com/questions/48320854/tensorflow-and-batch-normalization-with-batch-size-1-outputs-all-zeros,bad choice of batch_size
+59076114,Regularization,https://stackoverflow.com/questions/59076114/batch-normalization-destroys-validation-performances,wrong use of batchnorm
+45497342,Regularization,https://stackoverflow.com/questions/45497342/batch-normalization-during-testing,wrong use of batchnorm
+52279892,Regularization,https://stackoverflow.com/questions/52279892/batch-normalization-causes-huge-difference-between-training-and-inference-loss,wrong use of batchnorm
+59648509,Optimization,https://stackoverflow.com/questions/59648509/batch-normalization-when-batch-size-1,bad choice of batch_size
+43234667,Regularization,https://stackoverflow.com/questions/43234667/tf-layers-batch-normalization-large-test-error,wrong use of batchnorm
+51146597,Optimization,https://stackoverflow.com/questions/51146597/cnn-with-tensorflow-low-accuracy-on-cifar-10-and-not-improving,bad loss reduction
+41954308,Optimization,https://stackoverflow.com/questions/41954308/loss-function-works-with-reduce-mean-but-not-reduce-sum,bad loss reduction
+34743847,Optimization,https://stackoverflow.com/questions/34743847/tensorflow-convolution-huge-loss-function-values,high learning rate
+37624102,Optimization,https://stackoverflow.com/questions/37624102/very-basic-keras-cnn-with-2-classes-giving-inexplicable-answers,high learning rate
+44124376,InputData,https://stackoverflow.com/questions/44124376/tensorflow-dataset-shuffle-each-epoch,inappropriate shuffle
+46995209,InputData,https://stackoverflow.com/questions/46995209/neural-network-toy-model-to-fit-sine-function-fails-whats-wrong,normalization of inputs and outputs
+50555434,Activation,https://stackoverflow.com/questions/50555434/keras-model-to-predict-probability-distribution,wrong last layer (requires softmax for multiclass prediction)
+48527808,Optimization,https://stackoverflow.com/questions/48527808/loss-is-increasing-from-first-epoch-itself,bad loss reduction & High learning rate
+42064941,Optimization,https://stackoverflow.com/questions/42064941/tensorflow-float16-support-is-broken,inadequate epsilon for ADAM optimizer
