@@ -71,5 +71,22 @@ PreCheck:
         disabled: true
 ```
 
+## The Paper
+You can find the paper [here]([https://dl.acm.org/doi/abs/10.1145/3470006](https://dl.acm.org/doi/abs/10.1145/3529318)) and the citation is as follows:
+
+    @article{10.1145/3529318,
+      author = {Braiek, Houssem Ben and Khomh, Foutse},
+      title = {Testing Feedforward Neural Networks Training Programs},
+      year = {2022},
+      publisher = {Association for Computing Machinery},
+      address = {New York, NY, USA},
+      issn = {1049-331X},
+      url = {https://doi.org/10.1145/3529318},
+      doi = {10.1145/3529318},
+      journal = {ACM Trans. Softw. Eng. Methodol.},
+      month = {mar},
+      keywords = {training programs, property-based debugging, neural networks}
+    }
+    
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
