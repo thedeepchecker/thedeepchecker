@@ -1,8 +1,6 @@
 # TheDeepChecher
 
-TheDeepChecher is a Python Framework for debugging DL programs (written with Tensorflow).
-It is a proof of concept implementation of a reseach paper on the property-based testing for DL programs.
-(To add #Link to the paper)
+The DeepChecker is a dynamic DL program debugger using monitored training and property-based verifications. For now, we support DL programs written using TensorFlow. The debugging is conducted through three stages. During the pre-training stage, the deepchecker runs all prechecks on the input data and neural network’s starting state (random weights, initial loss) to validate their status or report any poor quality data processing or misconfigurations. Next, the on-training debugging stage consists of periodically running verification routines on the DL program states and metrics with the objective of detecting any property violation (wrong outputs, uncorrelated metrics) or inefficient training (unstable activation patterns, vanishing gradients). Upon successful neural network fitting verification, a post-training debugging stage conducts separate inspections of involved modules like data loader and data augmentation. In order to switch on/off these checks and adjust their sensitivities, user-defined settings (yaml file format) must be updated to specify the active checks and set their associated thresholds. Throughout the debugging stages, the Deep Checker displays human-readable messages that explain violated properties and shrinked faulty states to assist the user in identifying the possible root cause.
 
 ## Installation
 
